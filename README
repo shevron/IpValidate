@@ -1,0 +1,17 @@
+A tiny PHP library for validating and matching IPv4 addresses and network ranges
+
+You can use this little library to:
+
+ - Validate IPv4 addresses written in dotted-decimal notation (a.b.c.d)
+ - Validate IPv4 network ranges written in different formats (CIDR and others) 
+ - Match an IPv4 address against a network range
+ - Get information like broadcast address and network address out of an IPv4
+   network range
+
+Currently no IPv6 support is planned.
+
+This has been written in PHP 5.2 style (PSR-0 namespaces etc.) a long time ago. It 
+may be converted to PHP 5.3 standards some day. 
+
+IpValidate is released under the terms of the DO WHAT THE FUCK YOU WANT TO 
+PUBLIC LICENSE version 2.0. See COPYING for details. 
